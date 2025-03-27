@@ -1,0 +1,8 @@
+age = int(input("Вік: "))  
+exp = int(input("Досвід: "))  
+qual = input("Кваліфікація: ").strip().lower() == "true"  
+
+if 20 <= age <= 40 and (exp >= 3 or qual):  
+    print("Відповідає вимогам")  
+else:  
+    print("Не відповідає вимогам")
